@@ -1,0 +1,25 @@
+#ifndef DECK_H
+#define DECK 
+#include "Card.h"
+
+using namespace std;
+
+// Deck class with instance variables and constructors
+class Deck {
+	private:
+		Card storage[52];
+		char suits[4] = { 'S', 'H', 'D', 'C' };
+		char faces[4] = { 'A', 'J', 'Q', 'K' };
+		int top = 0;
+
+
+	public:
+		Deck();
+		void shuffle();
+		Card deal();
+		void refreshDeck();
+		void showDeck();
+		int cardsLeft();
+		bool isEmpty();
+};
+#endif

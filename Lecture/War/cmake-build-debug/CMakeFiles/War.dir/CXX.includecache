@@ -1,0 +1,66 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/0's and 1's/OneDrive - CSULB/Courses/Spring 2021/CECS 282/Lecture/War/Card.h
+
+C:/0's and 1's/OneDrive - CSULB/Courses/Spring 2021/CECS 282/Lecture/War/CardPile.h
+iostream
+-
+vector
+-
+Card.h
+C:/0's and 1's/OneDrive - CSULB/Courses/Spring 2021/CECS 282/Lecture/War/Card.h
+
+C:/0's and 1's/OneDrive - CSULB/Courses/Spring 2021/CECS 282/Lecture/War/Deck.h
+CardPile.h
+C:/0's and 1's/OneDrive - CSULB/Courses/Spring 2021/CECS 282/Lecture/War/CardPile.h
+
+C:/0's and 1's/OneDrive - CSULB/Courses/Spring 2021/CECS 282/Lecture/War/LostAndFound.h
+CardPile.h
+C:/0's and 1's/OneDrive - CSULB/Courses/Spring 2021/CECS 282/Lecture/War/CardPile.h
+Player.h
+C:/0's and 1's/OneDrive - CSULB/Courses/Spring 2021/CECS 282/Lecture/War/Player.h
+
+C:/0's and 1's/OneDrive - CSULB/Courses/Spring 2021/CECS 282/Lecture/War/MegaDeck.h
+Deck.h
+C:/0's and 1's/OneDrive - CSULB/Courses/Spring 2021/CECS 282/Lecture/War/Deck.h
+CardPile.h
+C:/0's and 1's/OneDrive - CSULB/Courses/Spring 2021/CECS 282/Lecture/War/CardPile.h
+
+C:/0's and 1's/OneDrive - CSULB/Courses/Spring 2021/CECS 282/Lecture/War/Player.h
+CardPile.h
+C:/0's and 1's/OneDrive - CSULB/Courses/Spring 2021/CECS 282/Lecture/War/CardPile.h
+
+C:/0's and 1's/OneDrive - CSULB/Courses/Spring 2021/CECS 282/Lecture/War/WarPile.h
+CardPile.h
+C:/0's and 1's/OneDrive - CSULB/Courses/Spring 2021/CECS 282/Lecture/War/CardPile.h
+LostAndFound.h
+C:/0's and 1's/OneDrive - CSULB/Courses/Spring 2021/CECS 282/Lecture/War/LostAndFound.h
+Player.h
+C:/0's and 1's/OneDrive - CSULB/Courses/Spring 2021/CECS 282/Lecture/War/Player.h
+
+C:/0's and 1's/OneDrive - CSULB/Courses/Spring 2021/CECS 282/Lecture/War/main.cpp
+WarPile.h
+C:/0's and 1's/OneDrive - CSULB/Courses/Spring 2021/CECS 282/Lecture/War/WarPile.h
+Deck.h
+C:/0's and 1's/OneDrive - CSULB/Courses/Spring 2021/CECS 282/Lecture/War/Deck.h
+LostAndFound.h
+C:/0's and 1's/OneDrive - CSULB/Courses/Spring 2021/CECS 282/Lecture/War/LostAndFound.h
+Card.h
+C:/0's and 1's/OneDrive - CSULB/Courses/Spring 2021/CECS 282/Lecture/War/Card.h
+Player.h
+C:/0's and 1's/OneDrive - CSULB/Courses/Spring 2021/CECS 282/Lecture/War/Player.h
+MegaDeck.h
+C:/0's and 1's/OneDrive - CSULB/Courses/Spring 2021/CECS 282/Lecture/War/MegaDeck.h
+vector
+-
+map
+-
+iostream
+-
+

@@ -1,0 +1,42 @@
+#ifndef CARD_H
+#define CARD_H
+#ifndef PILE_H
+#define PILE
+
+using namespace std;
+
+// Card class with instace variables and constructors
+class Card {
+	private:
+		char rank;
+		char suit;
+		int value;
+		bool faceUp;
+	public:
+		Card();
+		Card(char r, char s);
+		char getRank();
+		char getSuit();
+		bool isFaceUp();
+		void setCard(int val);
+		int getValue();
+		void showCard();
+};
+#endif
+
+// Pile class that belongs to card
+class Pile {
+	private:
+		int sum;
+		int numOfCards = 0;
+		Card cards[52];
+	public:
+		Pile();
+		int getTotal();
+		int getNumOfCards();
+		bool isPrime();
+		void addCard(Card);
+		void displayPile();
+		void displayLastPile();
+};
+#endif

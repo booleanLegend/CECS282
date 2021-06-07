@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="War"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="C:/0&apos;s and 1&apos;s/OneDrive - CSULB/Courses/Spring 2021/CECS 282/Lecture/War/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/0&apos;s and 1&apos;s/OneDrive - CSULB/Courses/Spring 2021/CECS 282/Lecture/War/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/0&apos;s and 1&apos;s/OneDrive - CSULB/Courses/Spring 2021/CECS 282/Lecture/War/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/0&apos;s and 1&apos;s/OneDrive - CSULB/Courses/Spring 2021/CECS 282/Lecture/War/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/0&apos;s and 1&apos;s/OneDrive - CSULB/Courses/Spring 2021/CECS 282/Lecture/War/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="C:/0&apos;s and 1&apos;s/OneDrive - CSULB/Courses/Spring 2021/CECS 282/Lecture/War/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/0&apos;s and 1&apos;s/OneDrive - CSULB/Courses/Spring 2021/CECS 282/Lecture/War/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/0&apos;s and 1&apos;s/OneDrive - CSULB/Courses/Spring 2021/CECS 282/Lecture/War/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/0&apos;s and 1&apos;s/OneDrive - CSULB/Courses/Spring 2021/CECS 282/Lecture/War/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/0&apos;s and 1&apos;s/OneDrive - CSULB/Courses/Spring 2021/CECS 282/Lecture/War/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="War">
+				<Option output="C:/0&apos;s and 1&apos;s/OneDrive - CSULB/Courses/Spring 2021/CECS 282/Lecture/War/cmake-build-debug/War.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/0&apos;s and 1&apos;s/OneDrive - CSULB/Courses/Spring 2021/CECS 282/Lecture/War/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/0&apos;s and 1&apos;s/OneDrive - CSULB/Courses/Spring 2021/CECS 282/Lecture/War/."/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/0&apos;s and 1&apos;s/OneDrive - CSULB/Courses/Spring 2021/CECS 282/Lecture/War/cmake-build-debug/Makefile&quot;  VERBOSE=1 War"/>
+					<CompileFile command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/0&apos;s and 1&apos;s/OneDrive - CSULB/Courses/Spring 2021/CECS 282/Lecture/War/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/0&apos;s and 1&apos;s/OneDrive - CSULB/Courses/Spring 2021/CECS 282/Lecture/War/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/0&apos;s and 1&apos;s/OneDrive - CSULB/Courses/Spring 2021/CECS 282/Lecture/War/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="War/fast">
+				<Option output="C:/0&apos;s and 1&apos;s/OneDrive - CSULB/Courses/Spring 2021/CECS 282/Lecture/War/cmake-build-debug/War.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/0&apos;s and 1&apos;s/OneDrive - CSULB/Courses/Spring 2021/CECS 282/Lecture/War/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/0&apos;s and 1&apos;s/OneDrive - CSULB/Courses/Spring 2021/CECS 282/Lecture/War/."/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/0&apos;s and 1&apos;s/OneDrive - CSULB/Courses/Spring 2021/CECS 282/Lecture/War/cmake-build-debug/Makefile&quot;  VERBOSE=1 War/fast"/>
+					<CompileFile command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/0&apos;s and 1&apos;s/OneDrive - CSULB/Courses/Spring 2021/CECS 282/Lecture/War/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/0&apos;s and 1&apos;s/OneDrive - CSULB/Courses/Spring 2021/CECS 282/Lecture/War/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/0&apos;s and 1&apos;s/OneDrive - CSULB/Courses/Spring 2021/CECS 282/Lecture/War/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="C:/0&apos;s and 1&apos;s/OneDrive - CSULB/Courses/Spring 2021/CECS 282/Lecture/War/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/0&apos;s and 1&apos;s/OneDrive - CSULB/Courses/Spring 2021/CECS 282/Lecture/War/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/0&apos;s and 1&apos;s/OneDrive - CSULB/Courses/Spring 2021/CECS 282/Lecture/War/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/0&apos;s and 1&apos;s/OneDrive - CSULB/Courses/Spring 2021/CECS 282/Lecture/War/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/0&apos;s and 1&apos;s/OneDrive - CSULB/Courses/Spring 2021/CECS 282/Lecture/War/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="C:/0&apos;s and 1&apos;s/OneDrive - CSULB/Courses/Spring 2021/CECS 282/Lecture/War/Card.cpp">
+			<Option target="War"/>
+		</Unit>
+		<Unit filename="C:/0&apos;s and 1&apos;s/OneDrive - CSULB/Courses/Spring 2021/CECS 282/Lecture/War/Card.h">
+			<Option target="War"/>
+		</Unit>
+		<Unit filename="C:/0&apos;s and 1&apos;s/OneDrive - CSULB/Courses/Spring 2021/CECS 282/Lecture/War/CardPile.cpp">
+			<Option target="War"/>
+		</Unit>
+		<Unit filename="C:/0&apos;s and 1&apos;s/OneDrive - CSULB/Courses/Spring 2021/CECS 282/Lecture/War/CardPile.h">
+			<Option target="War"/>
+		</Unit>
+		<Unit filename="C:/0&apos;s and 1&apos;s/OneDrive - CSULB/Courses/Spring 2021/CECS 282/Lecture/War/Deck.cpp">
+			<Option target="War"/>
+		</Unit>
+		<Unit filename="C:/0&apos;s and 1&apos;s/OneDrive - CSULB/Courses/Spring 2021/CECS 282/Lecture/War/Deck.h">
+			<Option target="War"/>
+		</Unit>
+		<Unit filename="C:/0&apos;s and 1&apos;s/OneDrive - CSULB/Courses/Spring 2021/CECS 282/Lecture/War/LostAndFound.cpp">
+			<Option target="War"/>
+		</Unit>
+		<Unit filename="C:/0&apos;s and 1&apos;s/OneDrive - CSULB/Courses/Spring 2021/CECS 282/Lecture/War/LostAndFound.h">
+			<Option target="War"/>
+		</Unit>
+		<Unit filename="C:/0&apos;s and 1&apos;s/OneDrive - CSULB/Courses/Spring 2021/CECS 282/Lecture/War/MegaDeck.cpp">
+			<Option target="War"/>
+		</Unit>
+		<Unit filename="C:/0&apos;s and 1&apos;s/OneDrive - CSULB/Courses/Spring 2021/CECS 282/Lecture/War/MegaDeck.h">
+			<Option target="War"/>
+		</Unit>
+		<Unit filename="C:/0&apos;s and 1&apos;s/OneDrive - CSULB/Courses/Spring 2021/CECS 282/Lecture/War/Player.cpp">
+			<Option target="War"/>
+		</Unit>
+		<Unit filename="C:/0&apos;s and 1&apos;s/OneDrive - CSULB/Courses/Spring 2021/CECS 282/Lecture/War/Player.h">
+			<Option target="War"/>
+		</Unit>
+		<Unit filename="C:/0&apos;s and 1&apos;s/OneDrive - CSULB/Courses/Spring 2021/CECS 282/Lecture/War/WarPile.cpp">
+			<Option target="War"/>
+		</Unit>
+		<Unit filename="C:/0&apos;s and 1&apos;s/OneDrive - CSULB/Courses/Spring 2021/CECS 282/Lecture/War/WarPile.h">
+			<Option target="War"/>
+		</Unit>
+		<Unit filename="C:/0&apos;s and 1&apos;s/OneDrive - CSULB/Courses/Spring 2021/CECS 282/Lecture/War/main.cpp">
+			<Option target="War"/>
+		</Unit>
+		<Unit filename="C:/0&apos;s and 1&apos;s/OneDrive - CSULB/Courses/Spring 2021/CECS 282/Lecture/War/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
