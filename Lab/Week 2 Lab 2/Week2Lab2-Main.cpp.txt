@@ -1,0 +1,38 @@
+// Matthew Zaldana, Ashur Motlagh, Destin Byrd, Saul Martinez
+//Time Demoed: 8:11
+// Week 2 Lab 2 Can class using separate header file
+#include <iostream>
+#include <array>
+#include "Can.h"
+
+using namespace std;
+
+void getContents(Can cans[]);
+
+// Main Driver
+int main() {
+	Can cans[6];
+	cans[0] = Can("Coke", 12);
+	cans[1] = Can("Mango Monster Energy Drink", 16);
+	cans[2] = Can("Red Bull", 8);
+	cans[3] = Can("Bangl", 16);
+	cans[4] = Can("Venom Energy", 16);
+	cans[5] = Can("Jolt Cola", 12);
+	getContents(cans);
+	
+	cout << "Press any key to continue: ";
+	getchar();
+	
+	return 0;
+}
+
+
+void getContents(Can cans[]) {
+  int totalOunces = 0;
+  
+  for (int i = 0; i < 6; i++) {
+		totalOunces += cans[i].getVolume();
+		cout << cans[i].getVolume() << " ounce can of " << cans[i].getContents() << endl;
+	}
+	cout << totalOunces << " total ounces" << endl;
+}

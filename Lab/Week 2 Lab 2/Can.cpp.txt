@@ -1,0 +1,23 @@
+#include <string>
+#include "Can.h"
+//.CPP
+Can::Can() 
+{
+	contents = "empty";
+	volume = 0;
+}
+
+Can::Can(string c, int v) 
+{
+	contents = c;
+	volume = v;
+}
+
+int Can::getVolume()
+{
+  	return volume;
+}
+
+string Can::getContents(){
+  	return contents;
+}

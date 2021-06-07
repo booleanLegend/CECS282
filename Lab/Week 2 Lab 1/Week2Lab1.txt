@@ -1,0 +1,72 @@
+// Matthew Zaldana, Saul Martinez, Juan Anaya, John Apale
+// Class (CECS 282-06)
+// Project Name (Lab 3 - Can Class)
+// Due Date 1/26/21
+
+#include <iostream>
+
+using namespace std;
+
+//.H
+class Can
+{
+	private:
+    	string contents;
+    	int volume;
+
+	public:
+		Can();
+		Can(string s, int i);
+    
+    string getContents();
+    int getVolume();
+    
+};
+
+// Main Driver
+int main() 
+{
+	Can cans[4];
+	cans[0] = Can ("Pepsi", 12);
+	cans[1] = Can ("Pears", 16);
+	cans[2] = Can("Mustard", 32);
+	cans[3] = Can("Apple Juice", 40);
+
+	int totalOunces = 0;
+
+	for(int i = 0; i < 4; i++) 
+	{
+		totalOunces += cans[i].getVolume();
+		cout << cans[i].getVolume() << " ounce can of " << cans[i].getContents() << endl;
+	}
+	cout << "Total weight: " << totalOunces << " ounces" << endl;
+	cout << "Press any key to continue: ";
+	getchar();
+	getchar();
+
+	
+	return 0;
+}
+
+
+//.CPP
+Can::Can() 
+{
+	contents = "empty";
+	volume = 0;
+}
+
+Can::Can(string c, int v) 
+{
+	contents = c;
+	volume = v;
+}
+
+int Can::getVolume()
+{
+  	return volume;
+}
+
+string Can::getContents(){
+  	return contents;
+}

@@ -1,0 +1,14 @@
+The Rule of 3 or the Big 3 in C++ suggests a rule of thumb for creating and managing copy constructors, assignment operators and destructors of a class. Read this article before you do this lab: https://en.wikipedia.org/wiki/Rule_of_three_(C%2B%2B_programming)
+
+C++ provides a copy constructor and an assignment operator and a destructor automatically. However the default behavior of these may or may not be what you want depending on your requirements. If you have dynamic memory in your constructor, then you probably need to write all three.
+
+The rule of three (also known as the Law of The Big Three or The Big Three) is a rule of thumb in C++ (prior to C++11) that claims that if a class defines any of the following then it should probably explicitly define all three:[1]
+
+destructor
+copy constructor
+copy assignment operator
+This lab is designed to show you when these functions are being called. So in this assignemnt you will write all three of these functions for the Can class that you created in a previous assignment. But notice – there is no dynamic memory in the Can class, so it is NOT necessary to write these functions for the Can class. However, since you are writing them, you need to do the exact same things that C++ would have done. Also - in each of your Big 3 functions, include a debug statement that prints the name of the function - for example in the destructor you will have this statement: cout << "In Destructor\n";
+
+The copy constructor will copy each private data member from the source Can to the destination Can. The assignment operator will copy each data member from the source Can to the destination Can. The destructor will do nothing special. Additional requirement – each of the 3 functions will print the name of the function on the very first line. Example: the copy constructor will have this in the first line: cout << “entering Copy Constructor\n”;
+
+You also need to write a non-member function called max(Can, Can) that returns the largest Can (based on size of course).
